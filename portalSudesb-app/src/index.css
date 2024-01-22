@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.carouselImages {
+
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.142);
+  background-color: #e0e0e0;
+  padding-top: 5px;
+}
+
+img {
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.142);
+  margin-left: 10px;
+  width: 50%;
+}
+
+.custom-menu-item:hover {
+  background-color: rgba(255, 255, 255, 0.331) !important;
+}
+
+.logo-right {
+  width: 100px;
+  height: 50px;
+  background-image: url('./assets/sudesb-white.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.teste {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px 0;
+  width: 70%;
+}
+
+.aniver {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #001529;
+  padding: 10px;
+  color: #e0e0e0;
+  border-radius: 5px;
+}
+
+.cardTeste {
+position: relative;
+  right: 30%;
+  bottom: 110px;  
+}
+
+.title {
+  font-size: 1.5em;
+  margin: 20px 0 0 20px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 100px;
+  background-color: #001529;
+  border-radius: 5px;
+  font-size: 1.5em;
+  margin: 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #001529;
+  color: #fff;
+  height: 100px;
+  box-shadow: 1px 1px 10px 10px rgba(0, 0, 0, 0.227);
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.teste2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.carouselImages .ant-carousel .slick-dots li button {
+  background-color: #bb2d3b;
+}
+
+.carouselImages .ant-carousel .slick-dots li.slick-active button {
+  background-color: #bb2d3b;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
